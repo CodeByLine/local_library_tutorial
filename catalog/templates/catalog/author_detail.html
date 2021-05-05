@@ -2,6 +2,7 @@
 
 {% block content %}
 
-<h1>About {{author.name}} </h1>
+<h1>{{author.first_name}} {{author.last_name}}</h1>
 
+<h5>({{author.date_of_birth}} – {{author.date_of_death}})</h4>
 {% endblock %}
